@@ -1,0 +1,97 @@
+@media (max-width: 480px) {
+  html body {
+    font-size: 12px;
+  }
+  .main {
+    flex-direction: column;
+
+    .input-section,
+    .example {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    input {
+      font-size: 0.7rem;
+    }
+    .example img {
+      max-width: 20rem !important;
+      margin-bottom: 20rem;
+    }
+  }
+}
+
+body {
+  font-family: 'DotGothic16', 'Inter', 'sans-serif', 'Arial';
+  letter-spacing: 0.15rem;
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+
+  .input-container {
+    p {
+      font-size: 0.8rem;
+      font-weight: 800;
+      margin-bottom: -0.1rem;
+    }
+
+    input {
+      font-family: 'DotGothic16';
+      letter-spacing: 0.15rem;
+      margin-top: 0.5rem;
+      background-color: rgb(240, 240, 240);
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.6rem 0.8rem;
+    }
+    input::placeholder {
+      font-family: 'DotGothic16';
+      letter-spacing: 0.15rem;
+    }
+  }
+
+  .input-section {
+    padding: 2rem;
+    flex: 1;
+
+    .group {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .notes {
+    margin-top: 3rem;
+    p {
+      font-size: 0.8rem;
+    }
+
+    .asof {
+      font-size: 0.7rem;
+      color: gray;
+    }
+  }
+
+  .example {
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    img {
+      max-width: 25rem;
+    }
+  }
+}
