@@ -89,7 +89,7 @@ function App() {
             (3) The code doesn't work. Find a black pen and start colouring the squares hahahaha
           </p>
           <div className="asof">
-            Works as of 1/08/2026 for the past couple of receipts. I never found out what the last
+            Works as of August 2026 for the past couple of receipts. I never found out what the last
             variable v=2 was in the link, but i'm guessing it's the version number? If so, the code
             may not work next update, just let me know and I'll see what I can do.
           </div>
