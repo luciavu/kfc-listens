@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
+import exampleReceipt from './assets/receipt.png';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

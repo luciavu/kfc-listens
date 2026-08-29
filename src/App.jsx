@@ -1,6 +1,7 @@
 import './App.scss';
 import Input from './components/Input';
 import { useState } from 'react';
+import exampleReceipt from './assets/receipt.png';
 
 function App() {
   const [storenum, setStorenum] = useState('');
@@ -95,7 +96,7 @@ function App() {
         </div>
       </div>
       <div className="example">
-        <img src="src/assets/receipt.png" alt="example receipt" />
+        <img src={exampleReceipt} alt="example receipt" />
       </div>
     </div>
   );
