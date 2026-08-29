@@ -84,10 +84,13 @@ function App() {
             (2) Check you copied the date/time format exactly as the placeholder - include /, :,
             AM/PM, etc.
           </p>
-          <p>(3) The code is faulty. Find a black pen and start colouring the squares hahahaha</p>
+          <p>
+            (3) The code doesn't work. Find a black pen and start colouring the squares hahahaha
+          </p>
           <div className="asof">
-            Works as of 1/08/2026 (for me at least). I also can't guarantee they won't change the
-            survey access method in the future. Let me know and I'll see what I can do.
+            Works as of 1/08/2026 for the past couple of receipts. I never found out what the last
+            variable v=2 was in the link, but i'm guessing it's the version number? If so, the code
+            may not work next update, just let me know and I'll see what I can do.
           </div>
         </div>
       </div>
